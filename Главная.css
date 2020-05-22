@@ -1,0 +1,675 @@
+a{
+text-decoration:none;
+}
+
+
+
+
+
+body{
+margin:0;
+margin-left:0;
+margin-top:0;
+margint-right:0;
+margin:0px auto;
+}
+
+
+
+
+
+.bg {
+background:#EEB422;
+height:70px;
+}
+
+
+
+.li1{
+display: inline-block;
+padding: 20px;
+font-size: 25px;
+cursor: pointer;
+
+}
+
+
+.menu{
+margin-left:-100px;
+}
+
+
+
+
+
+/* анимация меню для элементов a */
+.menu a{
+padding:25px;
+color: black;
+border-right:0.2px solid #000000;
+transition:0.4s;
+}
+
+/* переход */
+
+.menu a:hover{
+background:#CD9B1D;
+color: white;
+margin-left:-3.7px;
+}
+
+
+
+/* линия после карт-ссылок */
+.novoe{
+margin-top:-80px;
+}
+
+.novoe_ul{
+list-style:none;
+background: #CD9B1D;
+text-align: center;
+}
+
+
+.novoe_li{
+display: inline-block;
+padding: 30px;
+font-size: 20px;
+color:white;
+margin-left:-10px;
+border-right: 1px dotted #8B4513; 
+}
+
+.novoe_li_4{
+display: inline-block;
+padding: 30px;
+font-size: 20px;
+color:white;
+margin-left:0px;
+}
+
+
+
+
+
+/* для номера телефона */
+.phone a{
+color:black;
+font-size:20px;
+margin-right:50px;
+
+}
+
+
+.phone {
+color:black;
+font-size:20px;
+margin-right:100px;
+
+}
+
+
+
+.src1{
+text-align:center;
+}
+
+
+.foto{
+width:320px;
+height:190px;
+}
+
+.foto:hover{
+box-shadow:
+    1px 1px #F0E68C,
+    2px 2px #F0E68C,
+    3px 3px #F0E68C,
+    4px 4px #F0E68C,
+    5px 5px #F0E68C,
+    6px 6px #F0E68C,
+    7px 7px #F0E68C;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+transition:0.3s;
+}
+
+
+p{
+color:black;
+font-size:20px;
+margin-right:100px;
+txet-indent:20px
+}
+
+p a{
+color:black;
+font-size:20px;
+margin-right:50px;
+text-indent:20px;
+}
+
+
+
+
+
+
+
+
+
+.pi_1{
+margin-top:-90px;
+}
+
+
+.logo{
+float:left;
+margin:0 10px 5px 0;
+margin-left:170px;
+margin-top:-10px;
+width:220px;
+}
+
+.gorod{
+margin-right:705px;
+margin-top:-25px;
+
+}
+
+
+.znak_gorod{
+margin-left:-860px;
+margin-top:40px;
+
+}
+
+.fa-phone{
+color:silver;
+}
+
+.verx_1{
+margin-bottom:40px;
+margin-top:30px;
+width:100%;
+max-width:1500px;
+align-items: center;
+justify-content: center;
+}
+
+
+
+.verx_2{
+align-items: center;
+justify-content: center;
+}
+
+
+
+
+
+
+
+
+.table-2{
+margin-top:-20px;
+margin-bottom:10px;
+}
+
+
+.table-2 a{
+color:black;
+margin-left:30px;
+width:100%;
+}
+
+
+
+.cherta_2{
+text-decoration:none;
+}
+
+.cherta_2:hover{
+border-bottom:1px solid black;
+}
+
+
+
+.karta{
+color:white;
+position:absolute;
+padding-left:48%;
+padding-top:10px;
+text-align:center;
+}
+
+.karta-1{
+color:white;
+position:absolute;
+padding-top:450px;
+padding-left:50px;
+padding-right:50px;
+font-size:20px;
+text-align:center;
+}
+
+.prosto{
+margin-left:310px;
+vertical-align: middle;
+margin-top:0px; 
+}
+
+p{
+text-indent:15px;
+}
+
+.table-3 a{
+margin-left:30px;
+}
+
+.table-3::before{
+content:'';
+bottom:0;
+right:0;
+position:absolute;
+width:0%;
+height:2px;
+background-color:#000;
+transition:0.3s;
+}
+
+.table-3 :hover:before{
+width:100%;
+left:0;
+}
+
+hr{
+border:0.5px dotted #A45B08;
+margin-left:35%;
+margin-right:18%;
+}
+
+
+
+/* Подвал сайта */
+
+footer{
+background:#8c5400;
+margin-top:-10px;
+margin-left:-20%;
+height:200px;
+}
+
+
+
+footer ul{
+margin-left:150px;
+}
+
+footer li{
+display: inline-block;
+margin-left:20px;
+margin-top:15px;
+font-size:20px;
+}
+
+footer li a{
+color:white;
+}
+
+
+.remont_3{
+margin-left:20%;
+margin-top:-50px;
+color:white;
+}
+
+
+
+
+
+
+.gorod_2{
+margin-left:200px;
+}
+
+
+
+
+.cherta{
+text-decoration:none;
+}
+
+.cherta:hover{
+border-bottom:1px solid white;
+}
+
+
+.fa-map{
+margin-left:-200px;
+}
+
+
+.niz_1{
+color:white;
+margin-right:230px;
+}
+
+
+.remont{
+margin-right:160px;
+}
+
+.remont_2{
+margin-right:110px;
+}
+
+.vk a{
+color:white;
+}
+
+.niz_2{
+color:white;
+margin-left:850px;
+margin-top:-30px;
+}
+
+
+.niz_2 a{
+color:white;
+}
+
+.niz_2 p{
+color:white;
+font-size:18px;
+}
+
+
+
+@media screen and (min-width:2000px){
+.bg{
+margin-top:50px;
+}
+.verx{
+margin-top:70px;
+}
+.foto{
+width:400px;
+height:200px;
+text-align:center;
+}
+.menu{
+margin:0 auto;
+}
+.bg{
+height:75px;
+}
+.li1{
+font-size:30px;
+}
+.logo{
+margin-left:100px;
+}
+.zg{
+text-align:center;
+}
+.gorod{
+margin-right:400px;
+font-size:28px;
+}
+.znak_gorod{
+margin-left:-620px;
+width:30px;
+}
+.cherta_2{
+float:left;
+}
+.pi_1{
+margin-top:-110px;
+}
+.pi_1 a{
+font-size:28px;
+}
+.pi_1 p{
+font-size:28px;
+}
+.table-2 a{
+font-size:25px;
+}
+.novoe li{
+font-size:26px;
+}
+.karta{
+font-size:25px;
+}
+.kar{
+height:1000px;
+}
+.karta-1{
+margin-top:300px;
+font-size:35px;
+text-align:center;
+}
+footer{
+height:300px;
+}
+footer li{
+font-size:30px;
+}
+.niz_1{
+font-size:25px;
+}
+.niz_2{
+font-size:25px;
+margin-top:-60px;
+margin-left:1200px;
+}
+.niz_2 p{
+font-size:25px;
+}
+.remont_3{
+font-size:25px;
+}
+.znak_gorod_2{
+width:25px;
+}
+.konec{
+text-align:center;
+}
+}
+
+
+@media screen and (min-width:2500px){
+.logo{
+width:320px;
+height:135px;
+}
+}
+
+
+@media (min-width:1400px) and (max-width:1999px){
+.bg{
+margin-top:50px;
+}
+.verx{
+margin-top:70px;
+}
+.menu{
+margin:0 auto;
+}
+.logo{
+margin-left:240px;
+}
+.zg{
+text-align:center;
+}
+.gorod{
+margin-right:550px;
+font-size:26px;
+}
+.znak_gorod{
+margin-left:-750px;
+width:25px;
+}
+.cherta_2{
+float:left;
+}
+.table-2 a{
+font-size:18px;
+}
+.pi_1{
+margin-top:-110px;
+}
+.pi_1 a{
+font-size:26px;
+}
+.pi_1 p{
+font-size:26px;
+}
+.konec{
+text-align:center;
+}
+.karta{
+font-size:23px;
+text-align:center;
+}
+.kar{
+height:700px;
+}
+.karta-1{
+margin-top:50px;
+font-size:27px;
+text-align:center;
+}
+}
+
+
+@media screen and (max-width:1299px){
+.gorod{
+margin-right:550px;
+font-size:26px;
+}
+.znak_gorod{
+margin-left:-750px;
+width:25px;
+}
+}
+
+@media screen and (max-width:1200px){
+.logo{
+margin-left:0px;
+}
+.gorod{
+margin-right:400px;
+font-size:26px;
+}
+.znak_gorod{
+margin-left:-600px;
+width:25px;
+}
+}
+
+
+@media screen and (max-width:1100px){
+body{
+width:600%;
+}
+.logo{
+margin-left:200px;
+}
+.kar{
+width:2000px;
+height:1000px;
+}
+.kaka{
+text-align:center;
+}
+.karta_text{
+margin:0 auto;
+float:center; 
+}
+.karta{
+padding-left:300%;
+width:100px;
+font-size:30px;
+}
+.karta-1{
+padding-left:240%;
+width:1200px;
+font-size:30px;
+margin-top:200px;
+text-align:center;
+}
+footer ul{
+text-align:center;
+}
+.niz_2{
+margin-left:1200px;
+}
+.remont_3{
+margin-right:1200px;
+}
+.foto{
+width:400px;
+height:200px;
+text-align:center;
+}
+.logo{
+margin-left:100px;
+}
+.zg{
+text-align:center;
+}
+.gorod{
+font-size:28px;
+}
+.znak_gorod{
+width:30px;
+}
+.pi_1{
+margin-top:-110px;
+}
+.pi_1 a{
+font-size:28px;
+}
+.pi_1 p{
+font-size:28px;
+}
+.table-2 a{
+font-size:25px;
+}
+.novoe li{
+font-size:26px;
+}
+hr{
+display:none;
+}
+}
+
+
+@media screen and (max-width:860px){
+.remont_3{
+margin-right:800px;
+}
+}
+
+@media screen and (max-width:820px){
+.remont_3{
+margin-right:400px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

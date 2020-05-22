@@ -1,0 +1,862 @@
+a{
+text-decoration:none;
+}
+
+
+
+body{
+margin:0;
+margin-left:0;
+margin-top:0;
+margint-right:0;
+width:100%;
+}
+
+.bg {
+width:100%;
+background:#EEB422;
+height:70px;
+}
+
+
+
+.li1{
+display: inline-block;
+padding: 20px;
+font-size: 25px;
+cursor: pointer;
+
+}
+
+
+
+
+.menu{
+margin-left:-100px;
+}
+
+
+/* анимация меню для элементов a */
+.menu a{
+padding:25px;
+color: black;
+border-right:0.2px solid #000000;
+transition:0.4s;
+
+}
+
+/* переход */
+
+
+.menu a:hover{
+background:#CD9B1D;
+color: white;
+font-size:100%;
+margin-left:-3.7px;
+width:100%;
+}
+
+
+
+
+
+
+
+.phone a{
+color:black;
+font-size:20px;
+margin-right:50px;
+
+}
+
+
+.phone {
+color:black;
+font-size:20px;
+margin-right:100px;
+
+}
+p{
+color:black;
+font-size:20px;
+margin-right:100px;
+txet-indent:20px
+}
+
+p a{
+color:black;
+font-size:20px;
+margin-right:50px;
+text-indent:20px;
+}
+
+
+
+/* до верхнего меню  */
+
+.pi_1{
+margin-top:-90px;
+}
+
+
+.logo{
+float:left;
+margin:0 10px 5px 0;
+margin-left:170px;
+margin-top:-10px;
+}
+
+.gorod{
+margin-right:690px;
+margin-top:-25px;
+
+}
+
+
+.znak_gorod{
+margin-left:-860px;
+margin-top:40px;
+}
+
+.fa-phone{
+color:silver;
+}
+
+.verx_1{
+margin-bottom:40px;
+margin-top:30px;
+}
+
+
+/* Закрыт до верхнего меню */
+
+
+.text-1{
+margin-left:-750px;
+font-size:22px;
+font-style:oblique;
+}
+
+.text_2{
+font-size:30px;
+margin-left:150px;
+font-style: oblique;
+}
+
+.table-1 a{
+color:black;
+margin-left:30px;
+width:100%;
+}
+
+.table-2{
+width:320px;
+height:165px;
+}
+
+.table-2:hover{
+box-shadow:
+    1px 1px #F0E68C,
+    2px 2px #F0E68C,
+    3px 3px #F0E68C,
+    4px 4px #F0E68C,
+    5px 5px #F0E68C,
+    6px 6px #F0E68C,
+    7px 7px #F0E68C;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+transition:0.3s;
+}
+
+
+.proba{
+margin-left:30px;
+margin-right:0px;
+margin-bottom:8px;
+margin-top:5px;
+font-size:16px;
+font-style:normal;
+color:black;
+}
+
+.knopka-2{
+background: gainsboro;
+border-color: #A45B08;
+border-radius: 50%;
+color: silver;
+}
+
+.knopka{
+background: eeeeee;
+border-color: #A45B08;
+border-radius: 50%;
+color:black;
+}
+
+.knopka:hover{
+background:#A45B08;
+transition:0.2s;
+color:white;
+cursor: pointer;
+}
+
+.knopki{
+margin-top:20px;
+margin-bottom:20px;
+}
+
+.table_3{
+margin-left:15px;
+}
+
+.table_3 a{
+color:black;
+margin-left:15px;
+width:100%;
+
+}
+
+
+.table_4{
+width:240px;
+height:110px;
+}
+
+.table_4:hover{
+box-shadow:
+    1px 1px #F0E68C,
+    2px 2px #F0E68C,
+    3px 3px #F0E68C,
+    4px 4px #F0E68C,
+    5px 5px #F0E68C,
+    6px 6px #F0E68C,
+    7px 7px #F0E68C;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+transition:0.3s;
+}
+
+hr{
+border:0.5px dotted color:#EEB422;;
+width:1000px;
+margin-left:180px;
+}
+
+.vozmojno{
+font-size:30px;
+margin-left:150px;
+font-style:oblique;
+}
+
+
+.cherta{
+text-decoration:none;
+}
+
+.cherta:hover{
+border-bottom:1px solid black;
+}
+
+
+
+/* Подвал сайта */
+
+.hr_2{
+margin-left:35%;
+margin-right:18%;
+border:0.5px dotted #A45B08;
+}
+
+footer{
+background:#8c5400;
+margin-top:-10px;
+margin-left:-20%;
+height:200px;
+max-width:300%;
+}
+
+
+
+footer ul{
+margin-left:150px;
+}
+
+footer li{
+display: inline-block;
+margin-left:20px;
+margin-top:15px;
+font-size:20px;
+}
+
+footer li a{
+color:white;
+}
+
+
+.remont{
+margin-left:-24.5%;
+color:white;
+}
+
+.remont_2{
+margin-left:-21.5%;
+color:white
+}
+
+.remont_3{
+margin-left:20%;
+margin-top:-50px;
+color:white;
+}
+
+.remont_4{
+margin-left:55%;
+margin-top:-30px;
+color:white;
+}
+
+.remont_4 a{
+color:white;
+}
+
+.remont_4 p{
+color:white;
+font-size:18px;
+}
+.vk{
+color:white;
+margin-left:-15%;
+}
+.vk a{
+color:white;
+}
+.gorod_2{
+margin-left:200px;
+}
+.cherta_2{
+text-decoration:none;
+}
+.cherta_2:hover{
+border-bottom:1px solid white;
+}
+.fa-map{
+margin-left:-200px;
+}
+
+
+
+
+@media screen and (min-width:2000px){
+.bg{
+margin-top:50px;
+}
+.verx{
+margin-top:70px;
+}
+.logo{
+margin-left:500px;
+}
+.verx_menu{
+margin:0 auto;
+}
+.text-1{
+margin:0 auto;
+margin-top:20px;
+margin-bottom:20px;
+font-size:30px;
+}
+.li1{
+font-size:30px;
+}
+.bg{
+height:75px;
+}
+p{
+font-size:30px;
+}
+p a{
+font-size:30px;
+}
+.znak_gorod{
+width:30px;
+margin-top:20px;
+}
+.gorod{
+margin-top:-30px;
+margin-right:610px;
+}
+.pi_1{
+margin-top:-110px;
+margin-right:200px;
+}
+footer{
+height:300px;
+}
+footer li{
+font-size:30px;
+}
+.remont{
+font-size:25px;
+}
+.remont_2{
+font-size:25px;
+}
+.remont_3{
+font-size:25px;
+}
+.vk{
+font-size:25px;
+}
+.znak_gorod_2{
+width:25px;
+}
+.remont_4 p{
+font-size:25px;
+}
+.remont_4 a{
+font-size:25px;
+}
+.table-2{
+width:400px;
+height:170px;
+}
+.table-1{
+font-size:25px;
+}
+.proba{
+font-size:25px;
+}
+.table_4{
+width:300px;
+height:170px;
+}
+.table_3 a{
+font-size:25px;
+}
+.vozmojno{
+font-size:35px;
+}
+hr{
+margin:0 auto;
+width:1200px;
+}
+.knopka{
+font-size:20px;
+width:30px;
+}
+.knopka-2{
+font-size:20px;
+width:30px;
+}
+}
+
+
+@media screen and (min-width:2400px){
+.bg{
+margin-top:50px;
+}
+.verx{
+margin-top:70px;
+}
+.logo{
+margin-left:600px;
+}
+}
+
+@media screen and (min-width:2700px){
+.bg{
+margin-top:50px;
+}
+.verx{
+margin-top:70px;
+}
+.logo{
+margin-left:700px;
+}
+}
+
+@media (min-width:1400px) and (max-width:1999px){
+.bg{
+margin-top:50px;
+}
+.verx{
+margin-top:70px;
+}
+.logo{
+margin-left:400px;
+}
+.verx_menu{
+margin:0 auto;
+}
+.text-1{
+margin:0 auto;
+margin-top:20px;
+margin-bottom:20px;
+font-size:30px;
+}
+.li1{
+font-size:30px;
+}
+.bg{
+height:75px;
+}
+p{
+font-size:30px;
+}
+p a{
+font-size:30px;
+}
+.znak_gorod{
+width:30px;
+margin-top:20px;
+}
+.gorod{
+margin-top:-30px;
+margin-right:610px;
+}
+.pi_1{
+margin-top:-110px;
+margin-right:200px;
+}
+footer{
+height:300px;
+}
+footer li{
+font-size:30px;
+}
+.remont{
+font-size:25px;
+}
+.remont_2{
+font-size:25px;
+}
+.remont_3{
+font-size:25px;
+}
+.vk{
+font-size:25px;
+}
+.znak_gorod_2{
+width:25px;
+}
+.remont_4 p{
+font-size:25px;
+}
+.remont_4 a{
+font-size:25px;
+}
+.table-2{
+width:400px;
+height:170px;
+}
+.table-1{
+font-size:24px;
+}
+.proba{
+font-size:23px;
+}
+.table_4{
+width:300px;
+height:170px;
+}
+.table_3 a{
+font-size:24px;
+}
+.vozmojno{
+font-size:35px;
+}
+hr{
+margin:0 auto;
+width:1200px;
+}
+.knopka{
+font-size:20px;
+width:30px;
+}
+.knopka-2{
+font-size:20px;
+width:30px;
+}
+.hr_2{
+display:none;
+}
+}
+
+
+@media screen and (max-width:1800px){
+.logo{
+margin-left:200px;
+}
+.pi_1{
+margin-right:0px;
+}
+}
+
+
+
+
+@media screen and (max-width:1300px){
+a{
+text-decoration:none;
+}
+body{
+margin:0;
+margin-left:0;
+margin-top:0;
+margint-right:0;
+width:100%;
+}
+.bg {
+width:130%;
+background:#EEB422;
+height:70px;
+}
+.li1{
+display: inline-block;
+padding: 20px;
+font-size: 25px;
+cursor: pointer;
+}
+.menu{
+margin-left:-400px;
+}
+
+/* анимация меню для элементов a */
+.menu a{
+padding:25px;
+color: black;
+border-right:0.2px solid #000000;
+transition:0.4s;
+}
+
+/* переход */
+
+.menu a:hover{
+background:#CD9B1D;
+color: white;
+font-size:100%;
+margin-left:-3.7px;
+width:100%;
+}
+.phone a{
+color:black;
+font-size:20px;
+margin-right:50px;
+}
+.phone {
+color:black;
+font-size:20px;
+margin-right:100px;
+}
+p{
+color:black;
+font-size:20px;
+margin-right:100px;
+txet-indent:20px
+}
+p a{
+color:black;
+font-size:20px;
+margin-right:50px;
+text-indent:20px;
+}
+
+
+/* до верхнего меню  */
+
+.pi_1{
+margin-top:-90px;
+}
+.logo{
+margin-left:0px;
+}
+.gorod{
+margin-right:300px;
+margin-top:-25px;
+}
+.znak_gorod{
+margin-left:-470px;
+margin-top:40px;
+}
+.fa-phone{
+color:silver;
+}
+.verx_1{
+margin-bottom:40px;
+margin-top:30px;
+}
+
+/* Закрыт до верхнего меню */
+
+.text-1{
+margin:0 auto;
+margin-top:20px;
+margin-bottom:20px;
+font-size:30px;
+}
+.text_2{
+font-size:30px;
+margin-left:150px;
+font-style: oblique;
+}
+.table-1 a{
+color:black;
+margin-left:30px;
+width:100%;
+}
+.table-2{
+width:320px;
+height:165px;
+}
+.table-2:hover{
+box-shadow:
+    1px 1px #F0E68C,
+    2px 2px #F0E68C,
+    3px 3px #F0E68C,
+    4px 4px #F0E68C,
+    5px 5px #F0E68C,
+    6px 6px #F0E68C,
+    7px 7px #F0E68C;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+transition:0.3s;
+}
+.proba{
+margin-left:30px;
+margin-right:0px;
+margin-bottom:8px;
+margin-top:5px;
+font-size:16px;
+font-style:normal;
+color:black;
+}
+hr{
+margin:0 auto;
+}
+.knopka{
+background: gainsboro;
+border-color: #A45B08;
+border-radius: 50%;
+color:silver;
+}
+.knopka-2{
+background: eeeeee;
+border-color: #A45B08;
+border-radius: 50%;
+}
+.knopka-2:hover{
+background:#A45B08;
+transition:0.2s;
+color:white;
+cursor: pointer;
+}
+.table_3{
+margin-left:15px;
+}
+.table_3 a{
+color:black;
+margin-left:15px;
+width:100%;
+}
+.table_4{
+width:240px;
+height:110px;
+}
+.table_4:hover{
+box-shadow:
+    1px 1px #F0E68C,
+    2px 2px #F0E68C,
+    3px 3px #F0E68C,
+    4px 4px #F0E68C,
+    5px 5px #F0E68C,
+    6px 6px #F0E68C,
+    7px 7px #F0E68C;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+transition:0.3s;
+}
+.vozmojno{
+font-size:30px;
+margin-left:150px;
+font-style:oblique;
+}
+.cherta{
+text-decoration:none;
+}
+.cherta:hover{
+border-bottom:1px solid black;
+}
+
+
+/* Подвал сайта */
+
+.hr_2{
+display:none;
+}
+footer{
+background:#8c5400;
+margin-top:-10px;
+margin-left:-20%;
+height:200px;
+width:150%;
+}
+footer ul{
+margin-left:150px;
+}
+footer li{
+display: inline-block;
+margin-left:20px;
+margin-top:15px;
+font-size:20px;
+}
+footer li a{
+color:white;
+}
+.remont{
+margin-left:-24.5%;
+color:white;
+}
+.remont_2{
+margin-left:-21.5%;
+color:white
+}
+.remont_3{
+margin-left:20%;
+margin-top:-50px;
+color:white;
+}
+.remont_4{
+margin-left:55%;
+margin-top:-30px;
+color:white;
+}
+.remont_4 a{
+color:white;
+}
+.remont_4 p{
+color:white;
+font-size:18px;
+}
+.vk{
+color:white;
+margin-left:-15%;
+}
+.vk a{
+color:white;
+}
+.gorod_2{
+margin-left:200px;
+}
+.cherta_2{
+text-decoration:none;
+}
+.cherta_2:hover{
+border-bottom:1px solid white;
+}
+.fa-map{
+margin-left:-200px;
+}
+}
+
+
+

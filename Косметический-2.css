@@ -1,0 +1,622 @@
+a{
+text-decoration:none;
+}
+
+
+
+body{
+margin:0;
+margin-left:0;
+margin-top:0;
+margint-right:0;
+}
+
+.bg {
+background:#EEB422;
+height:70px;
+}
+
+
+
+.li1{
+display: inline-block;
+padding: 20px;
+font-size: 25px;
+cursor: pointer;
+
+}
+
+
+
+
+.menu{
+margin-left:-10%;
+}
+
+
+/* анимация меню для элементов a */
+.menu a{
+padding:25px;
+color: black;
+border-right:0.2px solid #000000;
+transition:0.4s;
+
+}
+
+/* переход */
+
+
+.menu a:hover{
+background:#CD9B1D;
+color: white;
+font-size:100%;
+margin-left:-3.7px;
+width:100%;
+}
+
+
+.dvij{
+margin-left:30px;
+}
+
+
+
+
+
+.phone a{
+color:black;
+font-size:20px;
+margin-right:50px;
+
+}
+
+
+.phone {
+color:black;
+font-size:20px;
+margin-right:100px;
+
+}
+p{
+color:black;
+font-size:20px;
+margin-right:100px;
+txet-indent:20px
+}
+
+p a{
+color:black;
+font-size:20px;
+margin-right:50px;
+text-indent:20px;
+}
+
+
+
+/* до верхнего меню  */
+
+.pi_1{
+margin-top:-90px;
+}
+
+
+.logo{
+float:left;
+margin:0 10px 5px 0;
+margin-left:170px;
+margin-top:-10px;
+}
+
+.gorod{
+margin-right:690px;
+margin-top:-25px;
+}
+.znak_gorod{
+margin-left:-860px;
+margin-top:40px;
+}
+
+.fa-phone{
+color:silver;
+}
+
+.verx_1{
+margin-bottom:40px;
+margin-top:30px;
+}
+
+
+/* Закрыт до верхнего меню */
+
+
+
+
+
+
+
+
+.text{
+font-size:22px;
+font-style:oblique;
+margin-left:130px;
+}
+
+
+.kartinka-1{
+width:500px;
+height:450px;
+margin-left:130px;
+
+}
+
+
+.text_2{
+margin-left:43%;
+margin-right:40%;
+margin-bottom:-30px;
+font-size:22px;
+font-style:oblique;
+}
+
+
+.adaptivny-slayder {
+  position: relative;
+  max-width: 700px;
+  margin: 50px auto;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+
+.adaptivny-slayder input[name="kadoves"] {
+  display: none;
+}
+
+.kadoves {
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  text-align: center;
+  width: 100%;
+}
+
+.kadoves label {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  margin: 0 3px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+  border-radius: 50%;
+  border: 5px solid #2f363c;
+  background-color: #738290;
+}
+
+#slaid1:checked~.kadoves label[for="slaid1"] {
+  background-color: white;
+}
+
+#slaid2:checked~.kadoves label[for="slaid2"] {
+  background-color: white;
+}
+
+#slaid3:checked~.kadoves label[for="slaid3"] {
+  background-color: white;
+}
+
+#slaid4:checked~.kadoves label[for="slaid4"] {
+  background-color: white;
+}
+
+#slaid5:checked~.kadoves label[for="slaid5"] {
+  background-color: white;
+}
+
+#slaid6:checked~.kadoves label[for="slaid6"] {
+  background-color: white;
+}
+
+#slaid7:checked~.kadoves label[for="slaid7"] {
+  background-color: white;
+}
+
+#slaid8:checked~.kadoves label[for="slaid8"] {
+  background-color: white;
+}
+#slaid9:checked~.kadoves label[for="slaid9"] {
+  background-color: white;
+}
+#slaid10:checked~.kadoves label[for="slaid10"] {
+  background-color: white;
+}
+#slaid11:checked~.kadoves label[for="slaid11"] {
+  background-color: white;
+}
+#slaid12:checked~.kadoves label[for="slaid12"] {
+  background-color: white;
+}
+
+
+
+.adaptivny-slayder-lasekun {
+  overflow: hidden;
+   
+}
+
+.abusteku-deagulus {
+  display: flex;
+  width: 100%;
+  transition: all 0.5s;
+height:550px;
+}
+
+.abusteku-deagulus img {
+  width: 100%;
+  flex-shrink:0;
+}
+
+#slaid1:checked~adaptivny-slayder-lasekun abusteku-deagulus {
+  transform: translate(0);
+}
+
+#slaid2:checked~.adaptivny-slayder-lasekun .abusteku-deagulus {
+  transform: translateX(-100%);
+}
+
+#slaid3:checked~.adaptivny-slayder-lasekun .abusteku-deagulus {
+  transform: translateX(-200%);
+}
+
+#slaid4:checked~.adaptivny-slayder-lasekun .abusteku-deagulus {
+  transform: translateX(-300%);
+}
+
+#slaid5:checked~.adaptivny-slayder-lasekun .abusteku-deagulus {
+  transform: translateX(-400%);
+}
+
+#slaid6:checked~.adaptivny-slayder-lasekun .abusteku-deagulus {
+  transform: translateX(-500%);
+}
+
+#slaid7:checked~.adaptivny-slayder-lasekun .abusteku-deagulus {
+  transform: translateX(-600%);
+}
+#slaid8:checked~.adaptivny-slayder-lasekun .abusteku-deagulus {
+  transform: translateX(-700%);
+}
+#slaid9:checked~.adaptivny-slayder-lasekun .abusteku-deagulus {
+  transform: translateX(-800%);
+}
+#slaid10:checked~.adaptivny-slayder-lasekun .abusteku-deagulus {
+  transform: translateX(-900%);
+}
+#slaid11:checked~.adaptivny-slayder-lasekun .abusteku-deagulus {
+  transform: translateX(-1000%);
+}
+#slaid12:checked~.adaptivny-slayder-lasekun .abusteku-deagulus {
+  transform: translateX(-1100%);
+}
+
+
+
+
+
+.kartinki_3{
+margin-left:155px;
+}
+
+
+.kartinki_4{
+width:340px;
+height:300px;
+margin-left:2px;
+margin-bottom:10px;
+}
+
+
+.text_4{
+margin-left:160px;
+font-size:18px;
+}
+
+.text_4 a{
+border-bottom:1px solid black;
+}
+
+.text_4 a:hover{
+txet-decoration:none;
+}
+
+hr{
+border:0.5px dotted #A45B08;
+margin-left:400px;
+margin-right:375px;
+}
+
+
+
+/* Подвал сайта */
+
+.hr_2{
+margin-left:35%;
+margin-right:18%;
+border:0.5px dotted #A45B08;
+}
+
+footer{
+background:#8c5400;
+margin-top:-10px;
+margin-left:-20%;
+height:200px;
+max-width:300%;
+}
+
+
+
+footer ul{
+margin-left:38%;
+}
+
+
+footer li{
+display: inline-block;
+margin-left:20px;
+margin-top:15px;
+font-size:20px;
+}
+
+footer li a{
+color:white;
+}
+
+
+.remont{
+margin-left:35%;
+color:white;
+}
+
+.remont_2{
+margin-left:35%;
+color:white
+}
+
+.remont_3{
+margin-left:55%;
+margin-top:-50px;
+color:white;
+}
+
+.remont_4{
+margin-left:67%;
+margin-top:-30px;
+color:white;
+}
+
+.remont_4 a{
+color:white;
+}
+
+.remont_4 p{
+color:white;
+font-size:18px;
+}
+
+.fa-phone{
+color:silver;
+margin-left:18%;
+}
+
+
+
+.vk{
+color:white;
+margin-left:35%;
+}
+
+.vk a{
+color:white;
+}
+
+
+.gorod_2{
+margin-left:200px;
+}
+
+
+
+.cherta_2{
+text-decoration:none;
+}
+
+.cherta_2:hover{
+border-bottom:1px solid white;
+}
+
+.fa-map{
+margin-left:-200px;
+}
+
+
+
+@media screen and (min-width:2000px){
+.bg{
+margin-top:70px;
+}
+.verx{
+margin-top:70px;
+}
+.li1{
+font-size:30px;
+}
+.bg{
+height:75px;
+}
+.verx_chast{
+margin-top:40px;
+}
+p{
+font-size:30px;
+}
+p a{
+font-size:30px;
+}
+.znak_gorod{
+width:30px;
+margin-top:20px;
+}
+.gorod{
+margin-top:-30px;
+margin-right:610px;
+}
+.pi_1{
+margin-top:-110px;
+}
+.po_centru{
+margin:0 auto;
+width:1500px;
+}
+.po_centru_2{
+margin:0 auto;
+width:2500px;
+}
+footer{
+height:300px;
+width:120%;
+}
+footer li{
+font-size:30px;
+}
+.remont{
+font-size:25px;
+}
+.remont_2{
+font-size:25px;
+}
+.remont_3{
+font-size:25px;
+}
+.vk{
+font-size:25px;
+}
+.znak_gorod_2{
+width:25px;
+}
+.remont_4 p{
+font-size:25px;
+}
+.remont_4 a{
+font-size:25px;
+}
+}
+
+
+
+@media (min-width:1500px) and (max-width:1999px){
+.bg{
+margin-top:70px;
+}
+.verx{
+margin-top:90px;
+}
+.li1{
+font-size:30px;
+}
+.bg{
+height:75px;
+}
+p{
+font-size:30px;
+}
+p a{
+font-size:30px;
+}
+.znak_gorod{
+width:30px;
+margin-top:20px;
+}
+.gorod{
+margin-top:-30px;
+margin-right:610px;
+}
+.pi_1{
+margin-top:-110px;
+}
+.po_centru{
+margin:0 auto;
+width:1500px;
+}
+.po_centru_2{
+margin:0 auto;
+width:1500px;
+}
+.niz_1{
+margin-left:-200px;
+}
+footer{
+height:300px;
+}
+footer li{
+font-size:30px;
+}
+.remont{
+font-size:25px;
+}
+.remont_2{
+font-size:25px;
+}
+.remont_3{
+font-size:25px;
+}
+.vk{
+font-size:25px;
+}
+.znak_gorod_2{
+width:25px;
+}
+.remont_4 p{
+font-size:25px;
+}
+.remont_4 a{
+font-size:25px;
+}
+}
+
+
+@media screen and (max-width:1499px){
+.znak_gorod{
+margin-right:20px;
+}
+}
+
+
+@media screen and (max-width:1300px){
+.bg{
+width:160%;
+}
+footer{
+width:170%;
+}
+p{
+font-size:30px;
+}
+p a{
+font-size:30px;
+}
+.pi_1{
+margin-top:-110px;
+}
+.verx_menu{
+width:1500px;
+}
+.znak_gorod{
+margin-left:-920px;
+width:30px;
+}
+.po_centru{
+width:1200px;
+}
+.menu{
+width:1500px;
+margin:0 auto;
+}
+}
+
